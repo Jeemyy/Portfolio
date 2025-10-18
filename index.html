@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="./script/haeder.js"></script>
   <script src="./script/home.js"></script>
-  <script src="./script/hiddenScroll.js"></script>
+  <!-- <script src="./script/hiddenScroll.js"></script> -->
   <title>Document</title>
   <style>
   </style>
 </head>
 <body>
-  <section class="sec1">
-    <header class="head" id="head">
+      <header class="head" id="head">
+        
       <div class="title">
         <span id="l">{</span>
           <span id="d">.</span>
@@ -22,35 +23,48 @@
         <span id="r">}</span>
       </div>
       <nav class="nav1">
-        <a href="#" id="a1" onclick="home()">Home</a>
-        <a href="#" id="a2" onclick="about()">About</a>
-        <a href="#" id="a5" onclick="services()">Services</a>
-        <a href="#" id="a3" onclick="courses()">Courses</a>
-        <a href="#" id="a4" onclick="contact()">Contact Us</a>
+        <a href="#sec1" id="a1" onclick="">Home</a>
+        <a href="#sec2" id="a2" onclick="">About</a>
+        <a href="#sec3" id="a5" onclick="">Services</a>
+        <a href="#sec4" id="a3" onclick="">Courses</a>
+        <a href="#sec5" id="a4" onclick="">Contact Us</a>
       </nav>
+      <!-- <a href="#" class="action_btn">Get Started</a> -->
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="dropdown_menu">
+        <a href="#sec1" id="a1" onclick="">Home</a>
+        <a href="#sec2" id="a2" onclick="">About</a>
+        <a href="#sec3" id="a5" onclick="">Services</a>
+        <a href="#sec4" id="a3" onclick="">Courses</a>
+        <a href="#sec5" id="a4" onclick="">Contact Us</a>
+      </div>
     </header>
 
-    <div class="body">
-      <h1>I'm Ahmed Gamal</h1>
-      <h3>Software Engineer</h3>
+  <section class="sec1" id="sec1">
 
-      <p>Get ready to learn programming from scratch the right way and <br> join our private community to experience a unique educational journey <br> full of practical applications</p>
+    <div class="container">
+      <div class="body">
+        <h1>I'm Ahmed Gamal</h1>
+        <h3>Software Engineer</h3>
+        <p>Get ready to learn programming from scratch the right way and join our private community
+           to experience a unique educational journey full of practical applications</p>
+        <div class="project">
+          <a href="#">Project</a>
+        </div>
 
-      <div class="project">
-        <a href="#">Project</a>
+        <div class="links">
+          <a href="" id="a1"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="" id="a2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" id="a3"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
       </div>
-
-      <div class="links">
-        <a href="" id="a1"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="" id="a2"><i class="fa-brands fa-instagram"></i></a>
-        <a href="" id="a3"><i class="fa-brands fa-linkedin-in"></i></a>
+      <div class="img1">
+        <span id="left">{</span>
+        <span id="right">}</span>
+        <img src="./img/file.png" alt="" id="home-img">
       </div>
-    </div>
-    <div class="img1">
-      <span id="left">{</span>
-      <span id="right">}</span>
-      <img src="./img/file.png" alt="" id="home-img">
-
     </div>
   </section>
   <section class="sec2" id="sec2">
@@ -66,10 +80,11 @@
         <div class="text">
         <p> <span> < </span>Software Engineer <span>/></span></p>
         <h4>
-          Hello! I am<span> Ahmed Gamal </span>, a software engineer and graduate of Beni-Suef University of Technology and Korea, Department of Information Technology, specializing in software.
-          I have spent many years in the software field, gaining extensive experience in web development and web applications. I have worked on various projects involving the design and
-          development of websites usings <span> HTML </span>,<span> CSS </span>, and <span>JavaScript</span>, as well as server-side programming using <span>PHP</span> and <span>MySQL</span>
-          In addition, I have significant expertise in <span> Python programming </span>, I also possess deep knowledge of the <span>Linux</span> operating system,<span> network fundamentals</span>, and <span>cybersecurity</span>.
+          Hello! I'm <span>Ahmed Gamal</span>, a passionate <span>Software Engineer</span> and graduate of the <span>Beni-Suef University of Technology</span> in collaboration with Korea, majoring in <span>Information Technology</span> with a specialization in software development.
+          <br><br>
+          Over the years, I’ve gained extensive experience in <span>web development</span> and <span>web applications</span>, working on diverse projects that combine creativity and functionality. My expertise covers front-end technologies such as <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>, as well as back-end development using <span>PHP</span> and <span>MySQL</span> with the <span>Laravel</span> framework.
+          <br><br>
+          In addition, I have strong proficiency in <span>Python programming</span>, and a solid understanding of <span>Linux systems</span>, <span>network fundamentals</span>, and <span>cybersecurity</span>. I’m always eager to explore new technologies, solve complex problems, and build efficient, secure digital solutions.
         </h4>
         <button>
           <span class="transition"></span>
@@ -77,52 +92,46 @@
           <span class="label">Project</span>
         </button>
         </div>
-    </div>
+     </div>
   </div>
   </section>
-  <section class="sec3">
-    <div id="sec3">
-    <h1>Services</h1>
-    <div class="all-card" id="all-card">
-      <div class="card-1">
-        <i class="fa-solid fa-building-columns"></i>
-        <h3> <span>< </span>Education<span> /></span></h3>
+<section class="sec3" id="services">
+  <div class="container">
+    <h1 class="section-title">Services</h1>
+
+    <div class="all-card">
+      <!-- Card 1 -->
+      <div class="card card-1">
+        <i class="fa-solid fa-code"></i>
+        <h3><span><</span> Web Development <span>/></span></h3>
         <p>
-          Iam learn in Beni-Suif Technology University[BTU],
-          Iam in Information Technology department in track
-          Software 
+        I develop complete web solutions using HTML, CSS, JavaScript, React, PHP, Laravel, and MySQL
+        — ensuring scalability, high performance, and a great user experience.      
+      </p>
+      </div>
+      <!-- Card 2 -->
+      <div class="card card-1">
+        <i class="fa-solid fa-pen"></i>
+        <h3><span><</span> Backend Development <span>/></span></h3>
+        <p>
+          I design and implement robust backend systems using Laravel and MySQL,
+          focusing on clean architecture, data security, and API integration for seamless functionality.
         </p>
       </div>
-      <div class="card-2">
-        <i class="fa-solid fa-code"></i>
-        <h3><span>< </span>Code<span> /></span></h3>
-          <ul>
-            <li>Python programming</li>
-            <li>C programming</li>
-            <li>C++ programming</li>
-            <li>Java programming</li>
-            <li>Front-End</li>
-            <li>Back-End(PHP, MySQL)</li>
-            <li>CyberSecurity</li>
-          </ul>
-      </div>
-      <div class="card-3">
-        <i class="fa-solid fa-pen"></i>
-        <h3><span>< </span>Courses<span> /></span></h3>
-
-        <ul>
-          <li>Python Programming</li>
-          <li>C++ Programming</li>
-          <li>Front-End</li>
-          <li>PHP</li>
-          <li>MySQL</li>
-          <li>CyberSecurity</li>
-        </ul>
+      <!-- Card 3 -->
+      <div class="card card-1">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3><span><</span> Security & Testing <span>/></span></h3>
+        <p>
+        With experience in ethical hacking and penetration testing,
+        I analyze applications to identify vulnerabilities and apply
+         security best practices for protection and performance.
+      </p>
       </div>
     </div>
-    </div>
-  </section>
-  <section class="sec4" >
+  </div>
+</section>
+  <section class="sec4" id="sec4">
     <div id="sec4">
       <h1>Courses</h1>
     
@@ -200,7 +209,7 @@
       </div>
     </section>
     
-    <section class="sec5">
+    <section class="sec5" id="sec5">
       <h1>Contact <span>Us</span></h1>
       <div class="contact">
         <div class="social">
@@ -256,8 +265,40 @@
       </div>
     </section>
 
+    <footer>
+      <div class="waves">
+        <div id="wave1" class="wave"></div>
+        <div id="wave2" class="wave"></div>
+        <div id="wave3" class="wave"></div>
+        <div id="wave4" class="wave"></div>
+      </div>
+      <ul class="social_icone">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+      <p>Copyright @ 2024 Ahmed Gamal, All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
 
+<script>
+  const toggleBtn = document.querySelector('.toggle_btn');
+  const toggleBtnIcone = document.querySelector('.toggle_btn i');
+  const dropdownMenu = document.querySelector('.dropdown_menu');
 
-<!-- hi that is me or right -->
+  toggleBtn.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('open');
+    const isOpen = dropdownMenu.classList.contains('open');
+    toggleBtnIcone.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+  });
+</script>

@@ -1,0 +1,121 @@
+@media (max-width: 1050px) {
+    .sec1 .img1 img{
+        right: 14%;
+        width: 330px;
+    }
+    .img1 span{
+        bottom:7%;
+    }
+    .sec1 .body h1{
+        /* display: none; */
+        font-size: 30px;
+    }
+    .sec1 .body p{
+        width: 25rem;
+    }
+}
+
+@media (max-width: 1100px){
+    .sec1 .body{
+        padding: 15% 10%; 
+    }
+    .sec1 .img1 img{
+        right: 13%;
+        width: 400px;
+    }
+    .sec1 .body p{
+        font-size: 20px;
+    }
+    .sec1 .body h1{
+        font-size: 30px;
+    }
+    .img1 span{
+        font-size: 25rem;
+        bottom:5%;
+    }
+    .img1 #right{
+        right: 1%;
+    }
+    .img1 #left{
+        right: 47%;
+    }
+    .sec1 .project a{
+        padding: 1% 5%;
+    }
+    footer .wave{
+        top: 255rem;
+    }
+    
+
+}
+
+@media (max-width: 950px){
+    .sec1 .body p{
+        width: 20rem;
+    }
+    .head .nav1{
+        display: none;
+    }
+    .head .toggle_btn{
+        display: block;
+    }
+    .head .dropdown_menu{
+        display: block;
+    }
+}
+
+@media (max-width: 900px){
+    .sec2 .about{
+        margin: 0 1rem;
+    }
+    .sec2 .about .page .photo img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 860px){
+    .sec1 .img1 img{
+        right: 14%;
+        width: 270px;
+    }
+    .img1 span{
+        font-size: 300px;
+        bottom:4%;
+    }
+    .sec3 .all-card{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .img1 #left{
+        right: 45%;
+    }
+    .img1 #right{
+        right: 2%;
+    }
+
+    .sec3 .all-card{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 15px;
+        margin: 1rem;
+    }
+    .sec3 .card-3 {
+        grid-column: 1 / span 2; 
+        justify-self: center;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 700px){
+}
+
+@media (max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
