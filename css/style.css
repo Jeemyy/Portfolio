@@ -477,6 +477,7 @@ button:active {
   gap: 20px;
   width: 80%;
   margin: 4% auto;
+
 }
 
 .sec3 .card {
@@ -550,18 +551,17 @@ button:active {
   top: 30px;
 }
 
+
 .sec4 .card-container {
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;  /* center all cards */
+  justify-content: center;
   align-items: center;
-  gap: 25px;
   width: 85%;
   margin: 0 auto;
 }
 .sec4 .card {
-  margin: 10px 40px;
-  /* display: inline-block; */
+  margin: 7px 40px;
+  display: inline-block;
 }
 
 
@@ -813,7 +813,7 @@ footer p{
 
 footer .wave{
   position: absolute;
-  /* top: 192rem; */
+  top: 192rem;
   bottom: 0; /* بدل top:-1000px */
   left: 0;
   width: 100%; /* عشان الحركة تبان */
