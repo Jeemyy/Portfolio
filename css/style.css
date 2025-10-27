@@ -470,14 +470,13 @@ button:active {
 }
 
 .sec3 .all-card {
-  width: 80%;
-  display: flex;
-  /* grid-template-columns: repeat(3, 1fr); */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 20px;
+  width: 80%;
   margin: 4% auto;
-
 }
 
 .sec3 .card {
@@ -551,23 +550,25 @@ button:active {
   top: 30px;
 }
 
-
-.card-container {
+.sec4 .card-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  justify-content: center;  /* center all cards */
+  align-items: center;
+  gap: 25px;
+  width: 85%;
+  margin: 0 auto;
 }
-
 .sec4 .card {
-  margin: 7px 40px;
-  display: inline-block;
+  margin: 10px 40px;
+  /* display: inline-block; */
 }
 
 
 .sec4 .project-card {
   /* background: linear-gradient(#0081de,#000); */
   background: rgb(15, 49, 71);
-  width: 19em;
+  width: 19rem;
   /* border: 2px solid #001623; */
   border-radius: 8px;
   box-shadow: 1px 1px 10px #000000;
@@ -812,7 +813,7 @@ footer p{
 
 footer .wave{
   position: absolute;
-  top: 192rem;
+  /* top: 192rem; */
   bottom: 0; /* بدل top:-1000px */
   left: 0;
   width: 100%; /* عشان الحركة تبان */

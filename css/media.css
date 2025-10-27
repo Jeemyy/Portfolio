@@ -1,121 +1,156 @@
-@media (max-width: 1050px) {
-    .sec1 .img1 img{
-        right: 14%;
-        width: 330px;
+/* ====== Desktop (Large) ====== */
+@media (max-width: 1200px) {
+    .sec1 .body {
+        padding: 10% 8%;
     }
-    .img1 span{
-        bottom:7%;
+    .sec1 .img1 img {
+        right: 15%;
+        width: 320px;
     }
-    .sec1 .body h1{
-        /* display: none; */
-        font-size: 30px;
+    .sec4 .project-card {
+        width: 17rem;
     }
-    .sec1 .body p{
-        width: 25rem;
+    footer .wave {
+        top: 187rem;
     }
 }
 
-@media (max-width: 1100px){
-    .sec1 .body{
-        padding: 15% 10%; 
+@media (max-width: 1056px) {
+    .sec4 .project-card {
+        width: 15rem;
     }
-    .sec1 .img1 img{
-        right: 13%;
-        width: 400px;
+}
+/* ====== Laptop (Medium) ====== */
+@media (max-width: 992px) {
+    .head .nav1 {
+        display: none;
     }
-    .sec1 .body p{
-        font-size: 20px;
+    .head .toggle_btn,
+    .head .dropdown_menu {
+        display: block;
     }
-    .sec1 .body h1{
-        font-size: 30px;
+
+    .sec1 .body {
+        padding: 12% 8%;
     }
+    .sec1 .body h1 {
+        font-size: 28px;
+    }
+    .sec1 .body p {
+        width: 22rem;
+        font-size: 18px;
+    }
+
+    .sec1 .img1 img {
+        right: 12%;
+        width: 300px;
+    }
+
+    .sec2 .about .page .photo img {
+        width: 280px;
+    }
+
+    .sec3 .all-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .sec4 .project-card {
+        width: 15.5rem;
+    }
+    .sec3 .all-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
+
+/* ====== Tablet (Small-Medium) ====== */
+@media (max-width: 768px) {
     .img1 span{
         font-size: 25rem;
-        bottom:5%;
+        bottom:4%;
+        font-size: 320px;
     }
-    .img1 #right{
-        right: 1%;
+    .sec1 .img1 img {
+        right: 15%;
+        width: 280px;
     }
     .img1 #left{
         right: 47%;
     }
-    .sec1 .project a{
-        padding: 1% 5%;
-    }
-    footer .wave{
-        top: 255rem;
-    }
-    
 
-}
+    .img1 #right{
+        right: 1%;
+    }
+    .sec1 .body h1 {
+        font-size: 26px;
+    }
+    .sec1 .body p {
+        width: 18rem;
+        font-size: 16px;
+    }
+    .sec3 .all-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 
-@media (max-width: 950px){
-    .sec1 .body p{
-        width: 20rem;
+    /* Center the last (3rd) card below the first two */
+    .sec3 .card:nth-child(3){
+        grid-column: 1 / span 2; 
+        justify-self: center;     
+        width: 60%;
     }
-    .head .nav1{
-        display: none;
+    .sec4 .card-container {
+        justify-items: center;
     }
-    .head .toggle_btn{
-        display: block;
-    }
-    .head .dropdown_menu{
-        display: block;
-    }
-}
-
-@media (max-width: 900px){
-    .sec2 .about{
-        margin: 0 1rem;
-    }
-    .sec2 .about .page .photo img{
-        width: 300px;
+    footer .wave {
+        top: 230rem;
     }
 }
 
-@media (max-width: 860px){
-    .sec1 .img1 img{
-        right: 14%;
-        width: 270px;
+/* ====== Mobile (Small) ====== */
+@media (max-width: 576px) {
+    .sec1 {
+        flex-direction: column;
+        text-align: center;
     }
-    .img1 span{
-        font-size: 300px;
-        bottom:4%;
+    .sec1 .img1 img {
+        position: relative;
+        right: 0;
+        width: 250px;
+        margin: 0 auto;
     }
-    .sec3 .all-card{
+    .sec1 .body {
+        padding: 2rem 1rem;
+    }
+    .sec1 .body p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .sec3 .all-card {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .dropdown_menu {
+        left: 1rem;
         width: 90%;
     }
 }
 
-@media (max-width: 768px){
-    .img1 #left{
-        right: 45%;
+/* ====== Extra Small Devices (Phones < 400px) ====== */
+@media (max-width: 400px) {
+    .sec1 .body h1 {
+        font-size: 22px;
     }
-    .img1 #right{
-        right: 2%;
+    .sec1 .body p {
+        font-size: 14px;
     }
-
-    .sec3 .all-card{
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        gap: 15px;
-        margin: 1rem;
-    }
-    .sec3 .card-3 {
-        grid-column: 1 / span 2; 
-        justify-self: center;
-        width: 50%;
-        margin-bottom: 20px;
-    }
-
-}
-
-@media(max-width: 700px){
-}
-
-@media (max-width: 576px){
-    .dropdown_menu{
-        left: 2rem;
-        width: unset;
+    .sec1 .project a {
+        padding: 8px 16px;
+        font-size: 14px;
     }
 }
