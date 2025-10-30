@@ -81,7 +81,7 @@
     }
 
     .sec3{
-        min-height: 180vh;
+        /* min-height: 10vh; */
     }
     .img1 span{
         font-size: 25rem;
@@ -267,14 +267,15 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
     } */
-.sec3 .all-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* start with two columns */
-    width: 100%;
-    margin: 0 auto;
-    justify-items: center;
-    gap: 20px;
-  }
+    .sec3 .all-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* start with two columns */
+        width: 100%;
+        margin: 0 auto;
+        justify-items: center;
+        gap: 20px;
+
+    }
 
   /* First card centered in first row (spans across both columns) */
   .sec3 .card:nth-child(1) {
@@ -296,8 +297,27 @@
     footer .wave {
         top: 283rem;
     }
+    .sec2 .about{
+        margin: 0;
+    }
+    .sec4 .project-card {
+        width: 12rem;
+        height: 15rem !important; 
+    }
+    .sec5 #i{
+        margin: 0 5px;
+        padding: 0;
+        width: 2.5rem;
+        height: 40px;
+    }
+    .sec5 .contact{
+        flex-direction: column;
+    }
+    .sec5 .msg{
+        width: 90%;
+        margin: 20px 0;
+    }
 }
-
 /* ====== Extra Small Devices (Phones < 400px) ====== */
 @media (max-width: 400px) {
     html, body{
@@ -380,5 +400,17 @@
     }
     footer .wave {
         top: 300rem;
+    }
+}
+
+
+@media (max-width: 430px) {
+    footer .wave {
+        top: 310rem;
+    }
+}
+@media (max-width: 390px) {
+    footer .wave {
+        top: 305rem;
     }
 }
