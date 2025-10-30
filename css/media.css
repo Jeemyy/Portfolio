@@ -423,6 +423,9 @@
         width: 90%;
         margin: 20px 0;
     }
+    .sec1 .project a {
+        padding: 10px 50px;
+    }
 
     footer .wave {
         top: 310rem;
