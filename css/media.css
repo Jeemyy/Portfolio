@@ -405,6 +405,25 @@
 
 
 @media (max-width: 430px) {
+    .sec1 .body .links a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .sec2 .about{
+        margin: 0;
+    }
+    .sec4 .project-card {
+        width: 11rem;
+        height: 15rem !important; 
+    }
+    .sec5 .contact{
+        flex-direction: column;
+    }
+    .sec5 .msg{
+        width: 90%;
+        margin: 20px 0;
+    }
+
     footer .wave {
         top: 310rem;
     }

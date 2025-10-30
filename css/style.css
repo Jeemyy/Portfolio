@@ -660,8 +660,8 @@ button:active {
 }
 .sec5 #i{
   font-size: 25px;
-  padding: 5px;
-  width: 16%;
+        width: 2.5rem;
+        height: 40px;
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
   text-align: center;
