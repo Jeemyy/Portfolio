@@ -281,7 +281,7 @@
 }
 .img1 span{
   position: absolute;
-  bottom:10%;
+  bottom: 3%;
   font-size: 350px;
   font-weight: 100;
   color: #003c67;
@@ -469,22 +469,24 @@ button:active {
   transition: filter 0.4s ease, transform 0.4s ease;
   object-fit: cover;
 }
-.sec3{
-  background: linear-gradient(#003c67,#002a47,#002139,#000);
-  background-repeat:no-repeat ;
+/* ===== Section 3 Styles ===== */
+.sec3 {
+  background: linear-gradient(#003c67, #002a47, #002139, #000);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
 }
 
-.sec3 h1{
+/* Title */
+.sec3 h1 {
   text-align: center;
   font-size: 40px;
   padding-top: 5%;
   color: #fff;
-  text-align: center;
 }
 
+/* Card container */
 .sec3 .all-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -493,67 +495,56 @@ button:active {
   gap: 20px;
   width: 80%;
   margin: 4% auto;
-
+  box-sizing: border-box;
 }
 
+/* Card style */
 .sec3 .card {
   background-color: #003448;
   width: 100%;
-  height: 100%;
-  margin: auto;
-  padding: 40px 10px;
+  padding: 40px 15px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
   border-top: 7px solid #00fff7;
   border-bottom: 7px solid #00fff7;
   box-shadow: 1px 1px 10px rgb(0, 0, 0);
   border-radius: 20px;
-  transition: 0.5s ease;
+  transition: all 0.4s ease;
   color: #fff;
+  box-sizing: border-box;
 }
 
-.sec3 .card-1 {
-  position: relative;
-  padding-bottom: 95px;
-}
-.sec3 .card {
-  max-width: 350px;
-}
-.sec3 .card:hover{
-  /* background: none; */
-  /* box-shadow: 1px 1px 10px #76a2ad; */
+.sec3 .card:hover {
   border: 3px solid #00fff7;
-  transform: scale(1.01,1.01);
+  transform: scale(1.02);
 }
 
-.sec3 i{
-  position: relative;
+/* Card content */
+.sec3 i {
   font-size: 50px;
   color: #00e0b7;
-  bottom: 25px;
   padding: 5%;
 }
-.sec3 h3{
-  position: relative;
+
+.sec3 h3 {
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  bottom: 20px;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
-.sec3 span{
+.sec3 span {
   color: #00ffc3;
 }
-.sec3 p{
-  list-style: decimal;
+
+.sec3 p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 700;
   text-align: center;
+  margin: 0;
 }
-
-
 
 .sec4 {
   background: linear-gradient(#003c67, #002a47, #002139, #000);
@@ -578,6 +569,7 @@ button:active {
 }
 
 .sec4 .card {
+  background: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -835,7 +827,7 @@ footer p{
 
 footer .wave{
   position: absolute;
-  top: 200rem;
+  top: 217rem;
   bottom: 0; /* بدل top:-1000px */
   left: 0;
   width: 100%; /* عشان الحركة تبان */
