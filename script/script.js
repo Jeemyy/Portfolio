@@ -1,14 +1,14 @@
 var count = 1
 const projects = [
   {
-    img: `/img/projects/project${count++}.png`,
+    img: `./img/projects/project${count++}.png`,
     title: 'Fruitkha',
     tools: ['PHP', 'Laravel', 'MySQL'], 
     description: 'Fruitkha is a simple and fast e-commerce platform for buying food, tech products, and daily essentials.',
     github: "https://github.com/Jeemyy/Fruitkha",
   },
   {
-    img: `/img/projects/project${count++}.png`,
+    img: `./img/projects/project${count++}.png`,
     title: 'Krencel',
     tools: ['PHP', 'Laravel', 'MySQL'], 
     description: 'Krencel is a food delivery platform that allows users to order meals from restaurants quickly and conveniently.',
@@ -16,21 +16,21 @@ const projects = [
 
   },
   {
-    img: `/img/projects/project${count++}.png`,
+    img: `./img/projects/project${count++}.png`,
     title: 'TimeZone',
     tools: ['PHP', 'Laravel', 'MySQL'], 
     description: 'Timezone is an e-commerce platform where users can browse and purchase watches, including luxury, sport, and classic styles.',
     github: "https://github.com/Jeemyy/TownTeam",
   },
   {
-    img: `/img/projects/project${count++}.png`,
+    img: `./img/projects/project${count++}.png`,
     title: 'SignSpeak',
     tools: ['PHP', 'Laravel', 'MySQL', 'HTML', 'CSS', 'JavaScript','Bootstrap', "React js"], 
     description: 'SignSpeak is a platform that translates spoken language into sign language using a 3D model, helping communication for the deaf and mute.',
     github: "https://github.com/jeemyy/https://github.com/Jeemyy/SignSpeak_Finish",
   },
   {
-    img: `/img/projects/project${count++}.png`,
+    img: `./img/projects/project${count++}.png`,
     title: 'TownTeam',
     tools: ['PHP', 'Laravel', 'MySQL', 'Database Diagram', 'JavaScript'], 
     description: 'TownTeam is an e-commerce platform for buying clothes, featuring an admin dashboard for managing products and orders.',
